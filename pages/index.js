@@ -5,9 +5,9 @@ const HomePage = () => {
 
     const featuredEvents = getFeaturedEvents();
 
-    return <main style={{display: "grid", placeItems: "center", height: "100vh"}}>
+    return <div style={{marginTop: "6rem"}}>
         <EventList events={featuredEvents} />
-    </main>
+    </div>
 }
 
 export default HomePage;

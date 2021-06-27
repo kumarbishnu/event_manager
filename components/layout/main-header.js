@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const MainHeader = props => {
 
-    return <nav className="navbar navbar-dark bg-dark">
+    return <nav className="navbar navbar-dark bg-dark fixed-top">
         <div className="container">
             <a href="/" className="navbar-brand">Event Manager</a>
             <ul className="navbar-nav">

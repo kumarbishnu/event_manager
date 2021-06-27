@@ -5,7 +5,7 @@ const HomePage = () => {
 
     const featuredEvents = getFeaturedEvents();
 
-    return <div style={{marginTop: "6rem"}}>
+    return <div className="container w-50" style={{marginTop: "6rem"}}>
         <EventList events={featuredEvents} />
     </div>
 }

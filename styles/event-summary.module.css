@@ -1,0 +1,11 @@
+.eventSummary {
+    background: #5cb6ab;
+    height: 300px;
+    display: grid;
+    place-content: center;
+    color: white;
+}
+
+.eventSummary h1 {
+    margin-bottom: 100px;
+}

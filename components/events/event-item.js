@@ -11,7 +11,7 @@ const EventItem = props => {
     return <li className="card mb-4 shadow-sm">
         <div className="row g-0">
             <div className="col-md-4">
-                <img src={'/' + event.image} alt={event.title} className="img-fluid w-100" style={{height: "280px", objectFit: "cover"}} />
+                <img src={'/' + event.image} alt={event.title} className="img-fluid w-100" style={{height: "300px", objectFit: "cover"}} />
             </div>
             <div className="col-md-8">
                 <div className="card-body p-4">
@@ -25,7 +25,7 @@ const EventItem = props => {
                         <address className="fst-italic" style={{whiteSpace: "pre"}}>{event.location.replace(', ', '\n')}</address>
                     </div>
                     <Link href={`/events/${event.id}`}>
-                        <a className="btn btn-success px-4 mt-5 float-end">Explore Event <FontAwesomeIcon icon={faLongArrowAltRight} className="ms-2" /></a>
+                        <a className="btn btn-success px-4 float-end">Explore Event <FontAwesomeIcon icon={faLongArrowAltRight} className="ms-2" /></a>
                     </Link>
                 </div>
             </div>

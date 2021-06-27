@@ -1,0 +1,12 @@
+.eventLogistics {
+    margin-top: -100px;
+    color: #5cb6ab;
+}
+
+.eventLogistics img {
+    object-fit: cover;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    border: .3rem whitesmoke solid;
+}
